@@ -1839,7 +1839,7 @@ var useModal = function (modal, closeOnOverlayClick) {
 };
 
 var Icon$w = function (props) {
-    return (React__default['default'].createElement("img", __assign({ href: "/images/JailIcon.png", style: { width: '25px', marginRight: '8px' } }, props)));
+    return (React__default['default'].createElement("image", __assign({ href: "/images/JailIcon.png", style: { width: '25px', height: '25px', marginRight: '8px' } }, props)));
 };
 
 var Icon$v = function (props) {
@@ -1858,7 +1858,7 @@ var Icon$t = function (props) {
 };
 
 var Icon$s = function (props) {
-    return (React__default['default'].createElement("img", __assign({ href: "/images/HomeIcon.png", style: { width: '25px', marginRight: '8px' } }, props)));
+    return (React__default['default'].createElement("image", __assign({ href: "/images/HomeIcon.png", style: { width: '25px', height: '25px', marginRight: '8px' } }, props)));
 };
 
 var Icon$r = function (props) {
@@ -1867,7 +1867,7 @@ var Icon$r = function (props) {
 };
 
 var Icon$q = function (props) {
-    return (React__default['default'].createElement("img", __assign({ href: "/images/InfoIcon.png", style: { width: '25px', marginRight: '8px' } }, props)));
+    return (React__default['default'].createElement("image", __assign({ href: "/images/InfoIcon.png", style: { width: '25px', height: '25px', marginRight: '8px' } }, props)));
 };
 
 var Icon$p = function (props) {
@@ -1897,7 +1897,7 @@ var Icon$m = function (props) {
 };
 
 var Icon$l = function (props) {
-    return (React__default['default'].createElement("img", __assign({ href: "/images/BribesIcon.png", style: { width: '25px', marginRight: '8px' } }, props)));
+    return (React__default['default'].createElement("image", __assign({ href: "/images/BribesIcon.png", style: { width: '25px', height: '25px', marginRight: '8px' } }, props)));
 };
 
 var Icon$k = function (props) {
@@ -1924,7 +1924,7 @@ var Icon$i = function (props) {
 };
 
 var Icon$h = function (props) {
-    return (React__default['default'].createElement("img", __assign({ href: "/images/TradeIcon.png", style: { width: '25px', marginRight: '8px' } }, props)));
+    return (React__default['default'].createElement("image", __assign({ href: "/images/TradeIcon.png", style: { width: '25px', height: '25px', marginRight: '8px' } }, props)));
 };
 
 var Icon$g = function (props) {
@@ -1938,7 +1938,7 @@ var Icon$f = function (props) {
 };
 
 var Icon$e = function (props) {
-    return (React__default['default'].createElement("img", __assign({ href: "/images/AuditsIcon.png", style: { width: '25px', marginRight: '8px' } }, props)));
+    return (React__default['default'].createElement("image", __assign({ href: "/images/AuditsIcon.png", style: { width: '25px', height: '25px', marginRight: '8px' } }, props)));
 };
 
 var Icon$d = function (props) {
@@ -1986,7 +1986,7 @@ var Icon$a = function (props) {
 };
 
 var Icon$9 = function (props) {
-    return (React__default['default'].createElement("img", __assign({ href: "/images/GamblingIcon.png", style: { width: '25px', marginRight: '8px' } }, props)));
+    return (React__default['default'].createElement("img", __assign({ src: "/images/GamblingIcon.png", style: { width: '25px', height: '25px', marginRight: '8px' } }, props)));
 };
 
 var Icon$8 = function (props) {
