@@ -1826,7 +1826,8 @@ var useModal = function (modal, closeOnOverlayClick) {
 };
 
 var Icon$w = function (props) {
-    return (React.createElement("image", __assign({ href: "/images/JailIcon.png", style: { width: '25px', marginRight: '8px', height: '25px' } }, props)));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+        React.createElement("image", { href: "/images/JailIcon.png", width: '25px', height: '25px' })));
 };
 
 var Icon$v = function (props) {
@@ -1845,7 +1846,8 @@ var Icon$t = function (props) {
 };
 
 var Icon$s = function (props) {
-    return (React.createElement("image", __assign({ href: "/images/HomeIcon.png", style: { width: '25px', marginRight: '8px', height: '25px' } }, props)));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+        React.createElement("image", { href: "/images/HomeIcon.png", width: '25px', height: '25px' })));
 };
 
 var Icon$r = function (props) {
@@ -1854,7 +1856,8 @@ var Icon$r = function (props) {
 };
 
 var Icon$q = function (props) {
-    return (React.createElement("image", __assign({ href: "/images/InfoIcon.png", style: { width: '25px', marginRight: '8px', height: '25px' } }, props)));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+        React.createElement("image", { href: "/images/InfoIcon.png", width: '25px', height: '25px' })));
 };
 
 var Icon$p = function (props) {
@@ -1884,7 +1887,8 @@ var Icon$m = function (props) {
 };
 
 var Icon$l = function (props) {
-    return (React.createElement("image", __assign({ href: "/images/BribesIcon.png", style: { width: '25px', marginRight: '8px', height: '25px' } }, props)));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+        React.createElement("image", { href: "/images/BribesIcon.png", width: '25px', height: '25px' })));
 };
 
 var Icon$k = function (props) {
@@ -1911,7 +1915,8 @@ var Icon$i = function (props) {
 };
 
 var Icon$h = function (props) {
-    return (React.createElement("image", __assign({ href: "/images/TradeIcon.png", style: { width: '25px', marginRight: '8px', height: '25px' } }, props)));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+        React.createElement("image", { href: "/images/TradeIcon.png", width: '25px', height: '25px' })));
 };
 
 var Icon$g = function (props) {
@@ -1925,7 +1930,8 @@ var Icon$f = function (props) {
 };
 
 var Icon$e = function (props) {
-    return (React.createElement("image", __assign({ href: "/images/AuditsIcon.png", style: { width: '25px', marginRight: '8px', height: '25px' } }, props)));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+        React.createElement("image", { href: "/images/AuditsIcon.png", width: '25px', height: '25px' })));
 };
 
 var Icon$d = function (props) {
@@ -1973,7 +1979,8 @@ var Icon$a = function (props) {
 };
 
 var Icon$9 = function (props) {
-    return (React.createElement("image", __assign({ href: "/images/GamblingIcon.png", style: { width: '25px', marginRight: '8px', height: '25px' } }, props)));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
+        React.createElement("image", { href: "/images/GamblingIcon.png", width: '25px', height: '25px' })));
 };
 
 var Icon$8 = function (props) {
@@ -2473,7 +2480,7 @@ var Avatar = function (_a) {
     var link = profile.username ? profileLink : noProfileLink;
     var isExternal = link.startsWith("http");
     var ariaLabel = "Link to profile";
-    var icon = image ? (React.createElement("image", { src: image, alt: "profile avatar", height: "32px", width: "32px" })) : (React.createElement(Icon, { width: "32px", height: "32px" }));
+    var icon = image ? (React.createElement("img", { src: image, alt: "profile avatar", height: "32px", width: "32px" })) : (React.createElement(Icon, { width: "32px", height: "32px" }));
     if (isExternal) {
         return (React.createElement(StyledAvatar, { title: username },
             React.createElement("a", { href: link, "aria-label": ariaLabel }, icon),
@@ -2649,7 +2656,7 @@ var baseColors = {
     failure: "#ED4B9E",
     primary: "#2b376c",
     primaryBright: "#2b376c",
-    primaryDark: "#2b376c",
+    primaryDark: "#eae2fc",
     secondary: "#030303",
     success: "#31D0AA",
     warning: "#FFB237",
