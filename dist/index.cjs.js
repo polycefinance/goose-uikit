@@ -1840,7 +1840,7 @@ var useModal = function (modal, closeOnOverlayClick) {
 
 var Icon$w = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("image", { href: "/images/JailIcon.png", width: '25px', height: '25px' })));
+        React__default['default'].createElement("image", { href: "/images/JailIcon.png", width: "25", height: "25" })));
 };
 
 var Icon$v = function (props) {
@@ -1860,7 +1860,7 @@ var Icon$t = function (props) {
 
 var Icon$s = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("image", { href: "/images/HomeIcon.png", width: '25px', height: '25px' })));
+        React__default['default'].createElement("image", { href: "/images/HomeIcon.png", width: "25", height: "25" })));
 };
 
 var Icon$r = function (props) {
@@ -1870,7 +1870,7 @@ var Icon$r = function (props) {
 
 var Icon$q = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("image", { href: "/images/InfoIcon.png", width: '25px', height: '25px' })));
+        React__default['default'].createElement("image", { href: "/images/InfoIcon.png", width: "25", height: "25" })));
 };
 
 var Icon$p = function (props) {
@@ -1901,7 +1901,7 @@ var Icon$m = function (props) {
 
 var Icon$l = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("image", { href: "/images/BribesIcon.png", width: '25px', height: '25px' })));
+        React__default['default'].createElement("image", { href: "/images/BribesIcon.png", width: '25', height: '25' })));
 };
 
 var Icon$k = function (props) {
@@ -1929,7 +1929,7 @@ var Icon$i = function (props) {
 
 var Icon$h = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("image", { href: "/images/TradeIcon.png", width: '25px', height: '25px' })));
+        React__default['default'].createElement("image", { href: "/images/TradeIcon.png", width: "25", height: "25" })));
 };
 
 var Icon$g = function (props) {
@@ -1944,7 +1944,7 @@ var Icon$f = function (props) {
 
 var Icon$e = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("image", { href: "/images/AuditsIcon.png", width: '25px', height: '25px' })));
+        React__default['default'].createElement("image", { href: "/images/AuditsIcon.png", width: "25", height: "25" })));
 };
 
 var Icon$d = function (props) {
@@ -1993,7 +1993,7 @@ var Icon$a = function (props) {
 
 var Icon$9 = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("image", { href: "/images/GamblingIcon.png", width: '25px', height: '25px' })));
+        React__default['default'].createElement("image", { href: "/images/GamblingIcon.png", width: "23", height: "25" })));
 };
 
 var Icon$8 = function (props) {
@@ -2667,8 +2667,8 @@ var templateObject_1;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#2b376c",
-    primaryBright: "#2b376c",
+    primary: "#eae2fc",
+    primaryBright: "#eae2fc",
     primaryDark: "#eae2fc",
     secondary: "#030303",
     success: "#31D0AA",
@@ -2677,8 +2677,8 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#8f80ba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#354cb2", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
+        bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#354cb2", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
